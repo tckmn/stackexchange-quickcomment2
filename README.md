@@ -9,9 +9,9 @@
 
 ## Screenshots
 
-![](shot1.png)
+![](img/shot1.png)
 
-![](shot2.png)
+![](img/shot2.png)
 
 ## Demo GIFs
 
@@ -20,16 +20,16 @@ text isn't even visible. Sorry about that :/
 
 ### Inserting an autocomment
 
-![](demo1.gif)
+![](img/demo1.gif)
 
 ### Changing the hotkey
 
-![](demo2.gif)
+![](img/demo2.gif)
 
 ### Other settings (editing an autocomment)
 
-![](demo3.gif)
+![](img/demo3.gif)
 
 ### Narrowing down via typing substrings
 
-![](demo4.gif)
+![](img/demo4.gif)
