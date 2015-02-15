@@ -1,5 +1,9 @@
 # stackexchange-quickcomment2
 
+This is a tool for Stack Exchange users that allows you to use automatic keyboard-only snippets while typing a comment.
+
+Simply press the hotkey (Alt+X by default), type in the name (or a substring of the name) of the snippet you wish to use (such as "welcome" or "linkonly"), and hit enter.
+
 ## Usage instructions
 
 1. Install userscript (in Chrome, type `chrome://extensions` in the URL bar and
