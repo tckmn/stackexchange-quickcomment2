@@ -40,7 +40,7 @@ if (localStorage.qc2) {
 $(function() {
     $('<style>' +
         '.qc2_selected { background-color: #FF0; }' +
-        '.qc2_popup { background-color: #E0EAF1; }' +
+        '.qc2_popup { background-color: #E0EAF1; text-align: left; }' +
         '.qc2_popup > * { margin: 5px; }' +
     '</style>').appendTo('head');
 
