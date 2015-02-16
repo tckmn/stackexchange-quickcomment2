@@ -41,7 +41,7 @@ $(function() {
     $('<style>' +
         '.qc2_selected { background-color: #FF0; }' +
         '.qc2_popup { background-color: #E0EAF1; text-align: left; }' +
-        '.qc2_popup > * { margin: 5px; }' +
+        '.qc2_popup > * { margin: 5px; word-wrap: break-word; }' +
     '</style>').appendTo('head');
 
     var dialog = $('<div>')
@@ -115,6 +115,10 @@ $(function() {
             .blur(hideDialog)
         )
         .hide();
+
+    // I don't know why I have to do this
+    // but it works, so I'll just go with it
+    dialog[0].scrollTop = 0;
 
     reloadDialogData();
 
