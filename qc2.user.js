@@ -97,7 +97,7 @@ $(function() {
                     var txt = $('input', dialog).val(),
                         needToUpdateSelected = !$('>div:visible').length;
                     $('>div span:first-child', dialog).each(function() {
-                        if (this.innerText.indexOf(txt) === -1) {
+                        if (this.textContent.indexOf(txt) === -1) {
                             $(this).parent().hide();
                             if ($(this).parent().hasClass('qc2_selected')) {
                                 needToUpdateSelected = true;
