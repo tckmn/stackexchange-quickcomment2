@@ -122,7 +122,7 @@ $(function() {
 
     reloadDialogData();
 
-    $(document).on('keydown', 'textarea[name="comment"]', function(e) {
+    $(document).on('keydown', 'textarea[name="comment"],textarea[name="otherText"]', function(e) {
         if (qc2.trigger.altKey === e.altKey &&
             qc2.trigger.ctrlKey === e.ctrlKey &&
             qc2.trigger.shiftKey === e.shiftKey &&
