@@ -9,7 +9,7 @@
 // @match *://*.stackoverflow.com/*
 // @match *://*.superuser.com/*
 // @match *://*.serverfault.com/*
-// @match *://*.askububtu.com/*
+// @match *://*.askubuntu.com/*
 // @match *://*.stackapps.com/*
 // @match *://*.mathoverflow.net/*
 // ==/UserScript==
