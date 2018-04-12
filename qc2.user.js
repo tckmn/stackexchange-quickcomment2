@@ -282,9 +282,8 @@ function getStr(query, callback, placeholder) {
         .append($('<div>')
             .text(query)
         )
-        .append($('<input>')
+        .append($('<textarea rows="10" cols="40">')
             .val(placeholder)
-            .attr('type', 'text')
             .keydown(function(e) {
                 if (e.which === 13) {
                     $(this).parent().remove();
